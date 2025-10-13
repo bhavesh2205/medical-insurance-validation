@@ -1,0 +1,65 @@
+{
+  "claim_id": "MGHC20240305003",
+  "patient_id": "P003",
+  "patient_name": "Christopher Reynolds",
+  "patient_dob": "1998-08-12",
+  "admission_date": "2024-03-05",
+  "discharge_date": "2024-03-07",
+  "provider_details": {
+    "provider_name": "Memorial General Hospital",
+    "provider_id": "MGHC001",
+    "npi": "1234567890",
+    "tax_id": "45-1234567"
+  },
+  "insurance_details": {
+    "payer_name": "Aetna",
+    "policy_number": "AETNA456789123",
+    "group_number": "G78945"
+  },
+  "diagnosis_codes": [
+    {
+      "code": "K35.2",
+      "description": "Acute appendicitis with generalized peritonitis",
+      "type": "principal"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "0DTJ0ZZ", 
+      "description": "Resection of Appendix, Open Approach",
+      "type": "surgical"
+    },
+    {
+      "code": "74160",
+      "description": "CT abdomen and pelvis with contrast",
+      "type": "diagnostic"
+    }
+  ],
+  "service_details": [
+    {
+      "service_date": "2024-03-05",
+      "cpt_code": "44950", 
+      "service_description": "Appendectomy, open",
+      "charge": 8500.00
+    },
+    {
+      "service_date": "2024-03-05",
+      "cpt_code": "74160",
+      "service_description": "CT abdomen/pelvis with contrast",
+      "charge": 1200.00
+    }
+  ],
+  "room_charges": {
+    "room_type": "Medical/Surgical",
+    "daily_rate": 1250.00,
+    "days_stay": 2,
+    "total_charge": 2500.00
+  },
+  "total_claimed_amount": 12200.00,
+  "patient_responsibility": {
+    "deductible": 500.00,
+    "copayment": 250.00,
+    "coinsurance": 1830.00
+  },
+  "submission_date": "2024-03-15"
+}

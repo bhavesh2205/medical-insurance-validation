@@ -1,0 +1,86 @@
+{
+  "claim_id": "MGHC20240210002",
+  "patient_id": "P002",
+  "patient_name": "Eleanor Vanderbilt",
+  "patient_dob": "1935-04-22",
+  "admission_date": "2024-02-10",
+  "discharge_date": "2024-02-17",
+  "provider_details": {
+    "provider_name": "Memorial General Hospital",
+    "provider_id": "MGHC001",
+    "npi": "1234567890",
+    "tax_id": "45-1234567"
+  },
+  "insurance_details": {
+    "payer_name": "Medicare Part A",
+    "policy_number": "MEDICARE123456789A",
+    "group_number": "MEDICARE"
+  },
+  "diagnosis_codes": [
+    {
+      "code": "S72.141A",
+      "description": "Displaced intertrochanteric fracture of right femur, initial encounter",
+      "type": "principal"
+    },
+    {
+      "code": "M80.051A",
+      "description": "Age-related osteoporosis with current pathological fracture, right femur",
+      "type": "secondary"
+    },
+    {
+      "code": "D62",
+      "description": "Acute posthemorrhagic anemia",
+      "type": "secondary"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "0QS606Z",
+      "description": "Repair of Right Femur with Intramedullary Device",
+      "type": "surgical"
+    },
+    {
+      "code": "30233N1",
+      "description": "Transfusion of Nonautologous Red Blood Cells, Unit",
+      "type": "therapeutic"
+    },
+    {
+      "code": "97110",
+      "description": "Therapeutic procedure to improve range of motion",
+      "type": "therapy"
+    }
+  ],
+  "service_details": [
+    {
+      "service_date": "2024-02-11",
+      "cpt_code": "27245",
+      "service_description": "Treatment of intertrochanteric hip fracture with intramedullary implant",
+      "charge": 12500.00
+    },
+    {
+      "service_date": "2024-02-12",
+      "cpt_code": "36430",
+      "service_description": "Transfusion of blood products",
+      "charge": 850.00
+    },
+    {
+      "service_date": "2024-02-13",
+      "cpt_code": "99223",
+      "service_description": "Initial hospital care",
+      "charge": 450.00
+    }
+  ],
+  "room_charges": {
+    "room_type": "Medical/Surgical",
+    "daily_rate": 1350.00,
+    "days_stay": 7,
+    "total_charge": 9450.00
+  },
+  "total_claimed_amount": 23250.00,
+  "patient_responsibility": {
+    "deductible": 1636.00,
+    "copayment": 0.00,
+    "coinsurance": 0.00
+  },
+  "submission_date": "2024-02-25"
+}

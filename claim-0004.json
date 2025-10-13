@@ -1,0 +1,86 @@
+{
+  "claim_id": "MGHC20240122004",
+  "patient_id": "P004",
+  "patient_name": "James O'Malley",
+  "patient_dob": "1952-11-08",
+  "admission_date": "2024-01-22",
+  "discharge_date": "2024-01-28",
+  "provider_details": {
+    "provider_name": "Memorial General Hospital",
+    "provider_id": "MGHC001",
+    "npi": "1234567890",
+    "tax_id": "45-1234567"
+  },
+  "insurance_details": {
+    "payer_name": "UnitedHealthcare Medicare Advantage",
+    "policy_number": "UHC-MA147258369",
+    "group_number": "MEDADV001"
+  },
+  "diagnosis_codes": [
+    {
+      "code": "J18.9",
+      "description": "Pneumonia, unspecified organism",
+      "type": "principal"
+    },
+    {
+      "code": "J44.1",
+      "description": "Chronic obstructive pulmonary disease with acute exacerbation",
+      "type": "secondary"
+    },
+    {
+      "code": "R09.02",
+      "description": "Hypoxemia",
+      "type": "secondary"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "5A09357",
+      "description": "Respiratory Ventilation, 24-96 consecutive hours",
+      "type": "respiratory"
+    },
+    {
+      "code": "3E0G3GC",
+      "description": "Introduction of Anti-infective into Central Vein",
+      "type": "therapeutic"
+    },
+    {
+      "code": "BW28ZZZ",
+      "description": "Plain Radiography of Chest",
+      "type": "diagnostic"
+    }
+  ],
+  "service_details": [
+    {
+      "service_date": "2024-01-22",
+      "cpt_code": "99291",
+      "service_description": "Critical care, first hour",
+      "charge": 475.00
+    },
+    {
+      "service_date": "2024-01-23",
+      "cpt_code": "94002",
+      "service_description": "Ventilation assist and management",
+      "charge": 325.00
+    },
+    {
+      "service_date": "2024-01-24",
+      "cpt_code": "71045",
+      "service_description": "Chest X-ray, single view",
+      "charge": 185.00
+    }
+  ],
+  "room_charges": {
+    "room_type": "Medical/Surgical (ICU then floor)",
+    "daily_rate": 2850.00,
+    "days_stay": 6,
+    "total_charge": 17100.00
+  },
+  "total_claimed_amount": 18085.00,
+  "patient_responsibility": {
+    "deductible": 0.00,
+    "copayment": 295.00,
+    "coinsurance": 1808.50
+  },
+  "submission_date": "2024-02-05"
+}

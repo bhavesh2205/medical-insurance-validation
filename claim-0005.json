@@ -1,0 +1,86 @@
+{
+  "claim_id": "MGHC20240228005",
+  "patient_id": "P005",
+  "patient_name": "Robert Chen",
+  "patient_dob": "1962-03-17",
+  "admission_date": "2024-02-28",
+  "discharge_date": "2024-03-04",
+  "provider_details": {
+    "provider_name": "Memorial General Hospital",
+    "provider_id": "MGHC001",
+    "npi": "1234567890",
+    "tax_id": "45-1234567"
+  },
+  "insurance_details": {
+    "payer_name": "Aetna Commercial PPO",
+    "policy_number": "AETNA258369147",
+    "group_number": "G85214"
+  },
+  "diagnosis_codes": [
+    {
+      "code": "I21.09",
+      "description": "ST elevation (STEMI) myocardial infarction involving anterior wall",
+      "type": "principal"
+    },
+    {
+      "code": "R57.0",
+      "description": "Cardiogenic shock",
+      "type": "secondary"
+    },
+    {
+      "code": "I25.110",
+      "description": "Atherosclerotic heart disease of native coronary artery with unstable angina",
+      "type": "secondary"
+    }
+  ],
+  "procedure_codes": [
+    {
+      "code": "027034Z",
+      "description": "Dilation of Coronary Artery, One Site with Drug-eluting Stent",
+      "type": "surgical"
+    },
+    {
+      "code": "5A02110",
+      "description": "Assistance with Circulation, 24-96 consecutive hours",
+      "type": "critical_care"
+    },
+    {
+      "code": "4A02X4Z",
+      "description": "Measurement of Cardiac Output",
+      "type": "monitoring"
+    }
+  ],
+  "service_details": [
+    {
+      "service_date": "2024-02-28",
+      "cpt_code": "92941",
+      "service_description": "PCI of coronary artery with stent placement",
+      "charge": 12500.00
+    },
+    {
+      "service_date": "2024-02-28",
+      "cpt_code": "99291",
+      "service_description": "Critical care, first hour",
+      "charge": 475.00
+    },
+    {
+      "service_date": "2024-03-01",
+      "cpt_code": "93306",
+      "service_description": "Echocardiography complete",
+      "charge": 850.00
+    }
+  ],
+  "room_charges": {
+    "room_type": "Cardiac Care Unit then Step-down",
+    "daily_rate": 3250.00,
+    "days_stay": 5,
+    "total_charge": 16250.00
+  },
+  "total_claimed_amount": 30075.00,
+  "patient_responsibility": {
+    "deductible": 1000.00,
+    "copayment": 500.00,
+    "coinsurance": 4511.25
+  },
+  "submission_date": "2024-03-12"
+}
